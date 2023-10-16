@@ -1,12 +1,20 @@
-<script setup>
-
-import Spline from './components/Spline.vue';
-
-</script>
-
+<!-- App.vue -->
 <template>
-<Spline>
+    <div id="app">
+      <Spline />
+    </div>
+  </template>
   
-</Spline>
-
-</template>
+  <script setup>
+  import Spline from "./components/Spline.vue";
+  </script>
+  
+  <style>
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
+  </style>
+  
