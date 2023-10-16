@@ -1,6 +1,6 @@
 <!-- App.vue -->
 <template>
-  
+
       <Spline />
   
   </template>
@@ -9,3 +9,7 @@
   import Spline from "./components/Spline.vue";
   </script>
 
+<style scoped>
+
+
+</style>
