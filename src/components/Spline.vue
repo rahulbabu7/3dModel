@@ -2,7 +2,7 @@
 <template>
   <div>
     <h2>
-      hi   brpooooo
+     world
     </h2>
     <!-- Embed Spline Project -->
     <iframe :src="splineProjectUrl"></iframe>
@@ -33,5 +33,6 @@ h2 {
   color: red;
   position: relative; /* Ensure the z-index works by giving position other than static */
   margin: 0;
+  text-align: center;
 }
 </style>
